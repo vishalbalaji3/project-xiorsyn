@@ -2,23 +2,23 @@
 # Documentation: https://sourcethemes.com/academic/
 
 # Color theme.
-#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
+#   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake` (not working), `strawberry`.
 color_theme = "default"
 # Enable users to switch between day and night mode?
 day_night = true
 
 # Font style.
-#   Choose from `default`, `classic`, or `playfair`.
+#   Choose from `default`, `classic`, or `playfair` (not working).
 font = "classic"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "This is the website of Vishal Balaji."
 
 # Default image for social sharing and search engines. Place image in `static/img/` folder and specify image name here.
 sharing_image = ""
 
 # Twitter username (without @). Used when a vistor shares your site on Twitter.
-twitter = ""
+twitter = "vishal_balaji"
 
 # Diplay a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
@@ -27,7 +27,7 @@ logo = ""
 # Enable global source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-# highlight_languages = ["r"]  # Add support for highlighting additional languages
+# highlight_languages = ["r", "html", "css", "markdown", "java", "javascript", "json", "python"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable global LaTeX math rendering?
@@ -50,25 +50,24 @@ time_format = "3:04 PM"
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "test@example.org"
-phone = "888 888 88 88"
-address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+email = "contact@vishalbalaji.com"
+phone = "601 819 0421"
+address = ""
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = """Monday 10:00 to 13:00<br>
-                  Wednesday 09:00 to 10:00"""
+office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
-appointment_url = "https://calendly.com"
+appointment_url = ""
 
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
-  {icon = "skype", icon_pack = "fab", name = "Skype Me", link = "skype:echo123?call"},
-  {icon = "keybase", icon_pack = "fab", name = "Chat on Keybase", link = "https://keybase.io/"},
-  {icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
-  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/vishal_balaji"},
+  {icon = "instagram", icon_pack = "fab", name = "Follow Me", link = "https://instagram.com/vishalbalaji3"},
+  {icon = "facebook", icon_pack = "fab", name = "DM Me", link = "https://facebook.com/vishalb.balaji/"},
+  {icon = "linkedin", icon_pack = "fab", name = "Look at my Resume", link = "https://linkedin.com/vishalbalaji"},
+  {icon = "github", icon_pack = "fab", name = "Check my github!", link = "https://github.com/vishalbalaji3"}
   ]
 
 # Display a map.
@@ -86,7 +85,7 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 2
+map = 0
 map_api_key = "AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
 latitude = "37.4275"
 longitude = "-122.1697"
@@ -151,7 +150,7 @@ sharing = true
   #   0: No search engine
   #   1: academia (built-in)
   #   2: Algolia (https://www.algolia.com)
-  engine = 0
+  engine = 1
 
   # Configuration of Algolia search engine.
   # Paste the values from your Algolia dashboard.
